@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CBOX_KeepICC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CBOX_KeepICC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CBOX_KeepICC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 119</value>
+  </data>
+  <data name="CBOX_KeepICC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 17</value>
+  </data>
+  <data name="CBOX_KeepICC.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CBOX_KeepICC.Text" xml:space="preserve">
+    <value>Keep ICC Profile (do not remove APP2)</value>
+  </data>
+  <data name="&gt;&gt;CBOX_KeepICC.Name" xml:space="preserve">
+    <value>CBOX_KeepICC</value>
+  </data>
+  <data name="&gt;&gt;CBOX_KeepICC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CBOX_KeepICC.Parent" xml:space="preserve">
+    <value>GBOX_AppDesc</value>
+  </data>
+  <data name="&gt;&gt;CBOX_KeepICC.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LAB_AppDesc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cambria, 12pt</value>
+  </data>
+  <data name="LAB_AppDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LAB_AppDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="LAB_AppDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 100</value>
+  </data>
+  <data name="LAB_AppDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LAB_AppDesc.Text" xml:space="preserve">
+    <value>This simple tool can be used to remove metadata information from JPEG image files. The cleaning process only removes JPEG Application Segment (APP0 to APP15). Please note that erasing ICC profile embeded in JPEG Application Segment 2 would affect the image quality.</value>
+  </data>
+  <data name="&gt;&gt;LAB_AppDesc.Name" xml:space="preserve">
+    <value>LAB_AppDesc</value>
+  </data>
+  <data name="&gt;&gt;LAB_AppDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LAB_AppDesc.Parent" xml:space="preserve">
+    <value>GBOX_AppDesc</value>
+  </data>
+  <data name="&gt;&gt;LAB_AppDesc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GBOX_AppDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="GBOX_AppDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 142</value>
+  </data>
+  <data name="GBOX_AppDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GBOX_AppDesc.Text" xml:space="preserve">
+    <value>Application Description</value>
+  </data>
+  <data name="&gt;&gt;GBOX_AppDesc.Name" xml:space="preserve">
+    <value>GBOX_AppDesc</value>
+  </data>
+  <data name="&gt;&gt;GBOX_AppDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GBOX_AppDesc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GBOX_AppDesc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BTN_Browse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BTN_Browse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 59</value>
+  </data>
+  <data name="BTN_Browse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>416, 23</value>
+  </data>
+  <data name="BTN_Browse.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BTN_Browse.Text" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="&gt;&gt;BTN_Browse.Name" xml:space="preserve">
+    <value>BTN_Browse</value>
+  </data>
+  <data name="&gt;&gt;BTN_Browse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTN_Browse.Parent" xml:space="preserve">
+    <value>GBOX_Browse</value>
+  </data>
+  <data name="&gt;&gt;BTN_Browse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RB_Recursion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RB_Recursion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RB_Recursion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 35</value>
+  </data>
+  <data name="RB_Recursion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 17</value>
+  </data>
+  <data name="RB_Recursion.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RB_Recursion.Text" xml:space="preserve">
+    <value>Search this folder and all its subfolders.</value>
+  </data>
+  <data name="&gt;&gt;RB_Recursion.Name" xml:space="preserve">
+    <value>RB_Recursion</value>
+  </data>
+  <data name="&gt;&gt;RB_Recursion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RB_Recursion.Parent" xml:space="preserve">
+    <value>GBOX_Browse</value>
+  </data>
+  <data name="&gt;&gt;RB_Recursion.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RB_NoRecursion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RB_NoRecursion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RB_NoRecursion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="RB_NoRecursion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 17</value>
+  </data>
+  <data name="RB_NoRecursion.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="RB_NoRecursion.Text" xml:space="preserve">
+    <value>Search this folder only.</value>
+  </data>
+  <data name="&gt;&gt;RB_NoRecursion.Name" xml:space="preserve">
+    <value>RB_NoRecursion</value>
+  </data>
+  <data name="&gt;&gt;RB_NoRecursion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RB_NoRecursion.Parent" xml:space="preserve">
+    <value>GBOX_Browse</value>
+  </data>
+  <data name="&gt;&gt;RB_NoRecursion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GBOX_Browse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 160</value>
+  </data>
+  <data name="GBOX_Browse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 86</value>
+  </data>
+  <data name="GBOX_Browse.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GBOX_Browse.Text" xml:space="preserve">
+    <value>#1 : Please select a folder containing JPEG image files</value>
+  </data>
+  <data name="&gt;&gt;GBOX_Browse.Name" xml:space="preserve">
+    <value>GBOX_Browse</value>
+  </data>
+  <data name="&gt;&gt;GBOX_Browse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GBOX_Browse.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GBOX_Browse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MainTreeView.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MainTreeView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="MainTreeView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>416, 281</value>
+  </data>
+  <data name="MainTreeView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MainTreeView.Name" xml:space="preserve">
+    <value>MainTreeView</value>
+  </data>
+  <data name="&gt;&gt;MainTreeView.Type" xml:space="preserve">
+    <value>Simple_JPEG_Stripper.TriStateTreeView, Simple JPEG Stripper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;MainTreeView.Parent" xml:space="preserve">
+    <value>GBOX_FileTree</value>
+  </data>
+  <data name="&gt;&gt;MainTreeView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GBOX_FileTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 252</value>
+  </data>
+  <data name="GBOX_FileTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 306</value>
+  </data>
+  <data name="GBOX_FileTree.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GBOX_FileTree.Text" xml:space="preserve">
+    <value>#2 : Select files to clean</value>
+  </data>
+  <data name="&gt;&gt;GBOX_FileTree.Name" xml:space="preserve">
+    <value>GBOX_FileTree</value>
+  </data>
+  <data name="&gt;&gt;GBOX_FileTree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GBOX_FileTree.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GBOX_FileTree.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TBOX_Progress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.25pt, style=Bold</value>
+  </data>
+  <data name="TBOX_Progress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 61</value>
+  </data>
+  <data name="TBOX_Progress.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TBOX_Progress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>416, 20</value>
+  </data>
+  <data name="TBOX_Progress.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="TBOX_Progress.Text" xml:space="preserve">
+    <value>Processing files...</value>
+  </data>
+  <data name="TBOX_Progress.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="TBOX_Progress.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TBOX_Progress.Name" xml:space="preserve">
+    <value>TBOX_Progress</value>
+  </data>
+  <data name="&gt;&gt;TBOX_Progress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBOX_Progress.Parent" xml:space="preserve">
+    <value>GBOX_Process</value>
+  </data>
+  <data name="&gt;&gt;TBOX_Progress.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BTN_Quit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BTN_Quit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 32</value>
+  </data>
+  <data name="BTN_Quit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BTN_Quit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BTN_Quit.Text" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="&gt;&gt;BTN_Quit.Name" xml:space="preserve">
+    <value>BTN_Quit</value>
+  </data>
+  <data name="&gt;&gt;BTN_Quit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTN_Quit.Parent" xml:space="preserve">
+    <value>GBOX_Process</value>
+  </data>
+  <data name="&gt;&gt;BTN_Quit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BTN_Process.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BTN_Process.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BTN_Process.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 32</value>
+  </data>
+  <data name="BTN_Process.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BTN_Process.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BTN_Process.Text" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;BTN_Process.Name" xml:space="preserve">
+    <value>BTN_Process</value>
+  </data>
+  <data name="&gt;&gt;BTN_Process.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTN_Process.Parent" xml:space="preserve">
+    <value>GBOX_Process</value>
+  </data>
+  <data name="&gt;&gt;BTN_Process.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TBOX_Prefix.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TBOX_Prefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 32</value>
+  </data>
+  <data name="TBOX_Prefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 20</value>
+  </data>
+  <data name="TBOX_Prefix.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TBOX_Prefix.Text" xml:space="preserve">
+    <value>clean_</value>
+  </data>
+  <data name="&gt;&gt;TBOX_Prefix.Name" xml:space="preserve">
+    <value>TBOX_Prefix</value>
+  </data>
+  <data name="&gt;&gt;TBOX_Prefix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TBOX_Prefix.Parent" xml:space="preserve">
+    <value>GBOX_Process</value>
+  </data>
+  <data name="&gt;&gt;TBOX_Prefix.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LAB_Prefix.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LAB_Prefix.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LAB_Prefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="LAB_Prefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 13</value>
+  </data>
+  <data name="LAB_Prefix.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LAB_Prefix.Text" xml:space="preserve">
+    <value>Each cleaned file is a copy of the original one. The following prefix is used accordingly :</value>
+  </data>
+  <data name="&gt;&gt;LAB_Prefix.Name" xml:space="preserve">
+    <value>LAB_Prefix</value>
+  </data>
+  <data name="&gt;&gt;LAB_Prefix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LAB_Prefix.Parent" xml:space="preserve">
+    <value>GBOX_Process</value>
+  </data>
+  <data name="&gt;&gt;LAB_Prefix.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GBOX_Process.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 564</value>
+  </data>
+  <data name="GBOX_Process.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 86</value>
+  </data>
+  <data name="GBOX_Process.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GBOX_Process.Text" xml:space="preserve">
+    <value>#3</value>
+  </data>
+  <data name="&gt;&gt;GBOX_Process.Name" xml:space="preserve">
+    <value>GBOX_Process</value>
+  </data>
+  <data name="&gt;&gt;GBOX_Process.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GBOX_Process.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GBOX_Process.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>456, 662</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAAAAEAIACoEAAAJgAAABAQAAABACAAaAQAAM4QAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQ
+        AAASCwAAEgsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAA
+        AAwAAAAJAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAMAAAAIgAAACUAAAAXAAAACQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAplb3ftNVJkiQAAAD0AAAAoAAAAFgAAAAkAAAACAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAABAAAAAWAAAAFgAA
+        ABYAAAAWAAAAFgAAABYAAAAWAAAAGTVbdndaUU3/PVZq+hpIa4oAAAA8AAAAKAAAABoAAAAWAAAAFgAA
+        ABYAAAAWAAAAFgAAABYAAAAWAAAAFgAAABYAAAAWAAAAEAAAAAUAAAAAAAAAAAAAAAAAAAAQAAAAMQAA
+        AEIAAABDAAAAQwAAAEMAAABDAAAAQwAAAEMAAABDQC4aYEVkev1edYH/b77t/yptoPgKNlqHAAAARQAA
+        AEMAAABDAAAAQwAAAEMAAABDAAAAQwAAAEMAAABDAAAAQwAAAEIAAAAxAAAAEAAAAAAAAAAAAAAAAAAA
+        ABa0hlLytYNM/7OBSf+zgEj/s4BI/7OASP+zgEj/s4BI/7SAR/+5gUT/gn1q/2rB7/+m4///gc38/0iV
+        0v8qaqb/yopH/7uFSv+0gUj/s4BI/7OASP+zgEj/s4BI/7OASP+zgUn/tYNM/7SGUvIAAAAWAAAAAAAA
+        AAAAAAAAAAAAFrWDTf//////////////////////////////////////////////////////bKDE/+/9
+        //+p3vv/Vbb8/w6Z//8pZJ3/////////////////////////////////////////////////tYNN/wAA
+        ABYAAAAAAAAAAAAAAAAAAAAWs4FJ///////////////9/////f////3////9/////f////3////9////
+        /v+txtj/crbY/+r7//9dvP//Epf//w+X//8lXZL///////////////3////9/////f////3/////////
+        //+zgUn/AAAAFgAAAAAAAAAAAAAAAAAAABazgEj////////++////fr///76///++v///vr///76///+
+        +v///vr////7/////v8Wa8P/eNv//972//9ivf//E5f//w+W//8kW5D/////////+////vr///76///9
+        +v///vv//////7OASP8AAAAWAAAAAAAAAAAAAAAAAAAAFrOASP////////77/////v//////////////
+        //////////////////////////////////8mccn/ft3//+D2//9ivf//E5f//w+W//8lXJD////+////
+        ///////////+///++///////s4BI/wAAABYAAAAAAAAAAAAAAAAAAAAWs4FJ//////////3/EZNn/yKe
+        c/8kn3T/JJ90/ySfdP8kn3T/JJ90/yWfdP8mn3T/K6J0/zGmcf8vdM7/f93//+D2//9ivf//E5f//xCW
+        //8uYJb/J6Vs/yOgcf8Rk2f////9//////+zgUn/AAAAFgAAAAAAAAAAAAAAAAAAABazgUn/////////
+        /P8dmG7/O62E/z2uhf89rYX/Pa2F/z2thf89rYX/Pa2F/z2thf8+roX/Pq+D/z2we/8vdM7/f97//+D2
+        //9ivf//FJf//xWZ//87ZZ3/PbR9/x6abP////z//////7OBSf8AAAAWAAAAAAAAAAAAAAAAAAAAFrOB
+        Sf/////////7/x+Yb/9EuI3/RreN/0a3jf9Gt43/RreN/0a3jf9Gt43/RreN/0a3jf9Gt4z/RrmK/0S8
+        gv8weM3/gOD//+D3//9ivf//FZf//xeZ//87ZZ7/Ip9o////+f//////s4FJ/wAAABYAAAAAAAAAAAAA
+        AAAAAAAWs4FJ/////////vf/HZdv/0i/lP9KvpT/Sb6U/0m+lP9JvpT/Sb6U/0m+lP9JvpT/Sb6U/0m+
+        lP9Kv5P/TMaR/yFCgf8xfc3/f+D//9/2//9ivf//FZf//xWZ//8uYZf////z//////+0gkr/AAAAFgAA
+        AAAAAAAAAAAAAAAAABazgUn////////99P8QlW7/Qcaa/0HEmP9Bw5f/QcOX/0HDl/9Bw5f/QcOX/0HD
+        l/9BxJf/QsSY/0TGmP9Mz5n/IVGO/yBRiP8qeMv/fN3//9/2//9ivf//FJf//xCX//8mXpX//////7qG
+        S/8AAAAWAAAAAAAAAAAAAAAAAAAAFrOBSf////////nw//S1Yv//7sP//+zA///rv///67///+u////r
+        v///67///+u////swP//7cH///HD///8xv8eWpb/IFyV////vv8odMz/ft3//+D2//9ivf//E5f//wyY
+        //8jZqT/xYxM/wAAACIAAAAGAAAAAAAAAAAAAAAWs4FK/////v//9+7/6bRi///pvf//57n//+a4///m
+        uP//5rj//+a4///muP//5rj//+i6//jhtP9Dp4T/HJ54/yRkoP8lZaD/IqF3/1avf/8udc7/ft3//9/2
+        //9fv///CZr//4h8cv92dXT/AAAAPQAAABwAAAAGAAAAAAAAABazgUr////////26v/ntGP//+a4///k
+        tP//47P//+Oz///js///47P//+Oz///ks///6Lb/H5+A/yKggf8rpYL/LZiK/y2Yiv8spoH/KqR//zSn
+        e/8mc83/d93//9b4//+rnpP/n5mX/3Jxb/91eG3/AAAAPQAAABwAAAAGAAAAFrOBSv////7///Pn/+e0
+        ZP//5LT//+Kw///hr///4a///+Gv///hr///4a///+Kw///ms/8Wn4P/KqWG/zCniP8xqIf/MaiH/zCn
+        iP8rpob/HaOC///vrf8UcM//taun/+jl4v/DwsD/m5yY/3uAcv+aas3/AAAANwAAABEAAAAWs4FK////
+        /v//8uP/57Rl///ir///4Kv//9+q///fqf//36n//9+q///fq///4Kv//+Ot/1SykP8jpor/L6mM/zKq
+        jP8zqoz/MKmM/yWniv9WtJD//+at///oqv+fnqH/1tXW/+bo5f+GioH/yozJ/8GEuv+Ya8j/AAAAEQAA
+        ABazgUr////9///x4f/ntWX//+Cq///fpf//36H//+Ce///gnv//36H//96k///dpv//36j//+Kq/47C
+        mf8rq4//NK6Q/zSukP8trI//f7+Y///jqv//4Kn//+Kq//C7Zf+dn6H/lZmR/9qh2//Qmc7/yI/C/59w
+        yv8AAAAGAAAAFrOBSv////3///Dd/+i1Zf//3qP//9yg/17A7/8mtv//Jrb//17A7///26D//9yg///b
+        o///3aT//+Gl/yOulP8zsZX/NbGV/yevlP/Z06D//92k///cpP//3qb/6rhn///54P+3fNT/467j/9qm
+        1v+re8z/AAAABgAAAAAAAAAWs4FK////////7tr/6bVl///dm/9fw+//Mr3//zu+//87vv//Mr3//1/C
+        7///25j//9me///Zn///3KD/e8Ca/yqymP8ss5j/TbiZ///Zn///2p///9mg///bov/otmf///DZ////
+        9v+5gtX/uIbU/wAAAAYAAAAAAAAAAAAAABazgUr////////s1v/ptmb//9uU/ynB//88wv//QMP//0DD
+        //88wv//KcD////Zkv//15n//9eb///Ym///2pv/eMGa/0m6mv//15r//9mb///Xm///15z//9me/+e1
+        Z///7db////7/7KCO/8AAAAWAAAAAAAAAAAAAAAAAAAAFrOBSv///////+vU/+m2Zv//2I//LMb//z7H
+        //9Dx///Q8f//z7H//8rxf///9eN///Vlf//1Zf//9WX///Wl///15f//9eX///Wl///1Zf//9WX///V
+        l///15n/57Zo///r1P//////s4FG/wAAABYAAAAAAAAAAAAAAAAAAAAWs4FK////////6dD/6bZn///V
+        jf9kzO7/OMv//0DL//9Ay///OMv//2PL7f//1Iv//9OS///Tk///05P//9OT///Tk///05P//9OT///T
+        k///05P//9OT///Vlf/ntmj//+nQ//////+zgUr/AAAAFgAAAAAAAAAAAAAAAAAAABazgUr////////o
+        zP/ot2j//9ON///RjP9l0O3/MND//zDQ//9l0O3//9GM///RjP//0Y///9GP///Rj///0Y///9GP///R
+        j///0Y///9GP///Rj///0pD//9OR/+e3af//6Mz//////7OBSv8AAAAWAAAAAAAAAAAAAAAAAAAAFrOB
+        Sv///////+bI/+e3af//0Yv//9GI///RhP//0YH//9GB///RhP//0Ij//9CL///QjP//0Iz//9CM///Q
+        jP//0Iz//9CM///QjP//0Iz//9CM///RjP//0Yz/57dp///myP//////s4FK/wAAABYAAAAAAAAAAAAA
+        AAAAAAAWs4FK////////48T/57Vl/+e3av/ot2r/6bdp/+m3af/pt2n/6bdp/+i3av/nt2r/57dq/+e3
+        av/nt2r/57dq/+e3av/nt2r/57dq/+e3av/nt2r/57dq/+e3av/ntWX//+PE//////+zgUr/AAAAFgAA
+        AAAAAAAAAAAAAAAAABWzgkv////////hvf//4sL//+PE///jxP//48T//+PE///jxP//48T//+PE///j
+        xP//48T//+PE///jxP//48T//+PE///jxP//48T//+PE///jxP//48T//+PE///iwv//4b3//////7OC
+        S/8AAAAVAAAAAAAAAAAAAAAAAAAADbWETv////X///zv///77////O////zv///87////O////zv///8
+        7////O////zv///87////O////zv///87////O////zv///87////O////zv///87////O////vv///8
+        7/////X/tYRO/wAAAA0AAAAAAAAAAAAAAAAAAAAEtIZTtLWET/+zgkz/s4JM/7OCTP+zgkz/s4JM/7OC
+        TP+zgkz/s4JM/7OCTP+zgkz/s4JM/7OCTP+zgkz/s4JM/7OCTP+zgkz/s4JM/7OCTP+zgkz/s4JM/7OC
+        TP+zgkz/s4JM/7WET/+0hlO0AAAABAAAAAAAAAAAAAAAAP+H////gf///4B//wAAAAcAAAAHAAAABwAA
+        AAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAMAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAEAAAADAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHKAAAABAAAAAgAAAAAQAgAAAA
+        AAAABAAAEgsAABILAAAAAAAAAAAAAAAAAAAAAAAAAAAAADM4PAAtMDMJKjM5JQMJDAwAAAABAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAADAAAAAwAAAALKzU8HUdUXpY0T2J+DClALgAA
+        AA8AAAAMAAAADAAAAAwAAAAMAAAACgAAAAIAAAAAjmtEWqB/Wpyff1udn39bnKF/WZ2CgHXWdKnG+0+U
+        xs9XaHOfpYBZnKB/W52ff1udoIBcnpt4UolpTCwWgF86ALaRZ5nv49X/+PHq//jw6P/58ej/7Ozp/6rQ
+        5/+EzPv/NJLb/63Azv/58ej/+PHp//jy6//XvqLmgVUlJJ5zQwC4kmmZ8+7m/+r28f/n9e//5/Xv/+n1
+        7/+q0OD/fcPq/2fB/v8wlOX/ss3i/+n27v/z+/j/28Wt5n5RHySdcT8AupRrmd/l2f9UtJP/SLGM/0mx
+        jP9KsY3/SrGL/0Cknf99xej/aMH//yyS4P8/nJX/ndW+/9/Hr+Z+UR8knXFAALqUbJnc49b/RbSP/0C5
+        jv9BuY//QbmP/0G5j/9Du43/Ppij/3i66P9qwv//IY3X/4m8xf/dxqzmglQhJJ9zQQC5lGyZ6OPS/6DJ
+        m/+h16v/odaq/6HWqv+i16v/m9mp/1SUm/9Mhq7/hcnr/2jB//80mOf/l5iT54haKCfDj1UAt5RtmfPj
+        z//51p///+e4///mt///5rf/9OS1/3e8lv8zlI3/NJWL/z+inv98xOr/fbjf/32DhfZfWltyCQAeDriU
+        bZnz4sz/9tOZ///irP//4an//+Gr/+vdqv9NsI7/LaeJ/y6oif9Qso3/sMOx/8HAvP+yra3/oX2o7oZc
+        pmi4lG2Z8+HK//bRlP/M1bv/lszQ/8zUuv//3aT/x9Gf/z2xk/85sJP/vs+f//3cnv/bw57/x6bN/8WP
+        zumhccFYuJRtmfTgx//lzZX/WcXu/zS///9ZxO3/7dei//rYnP+OxZr/gsKZ//bXnf/91Jb/9tmr/9u+
+        xvWtfK5dAAD/ALiUbZn038X/5cuR/1zL7P85yf//XMrr/+3Tm///1JT/99SV//bUlf//1Zb//NGP//fY
+        qv/cxKflhFceIqF0PQC3lG2Z897D//TIgf/LzaL/mMy8/8vMov/8zYf//M2I//zNiP/9zYj//M2I//nK
+        g//21aX/28Op5n5TIySdcUEAuJVumPThyf/31aT/+dSf//vUnv/51KD/99Si//fUov/31KL/99Si//fU
+        ov/206D/++C7/9vDqOaBVSQkn3NCALiQY4Xav53+3sSk/97EpP/exKT/3sSk/97EpP/exKT/3sSk/97E
+        pP/exKT/3sSk/97Fpf/Mq4XYk2Y0G6h8SgDw/wAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAA
+        AAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAA
+</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Simple JPEG Stripper</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
