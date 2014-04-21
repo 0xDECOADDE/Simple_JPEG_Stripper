@@ -6,7 +6,7 @@ I wrote it quickly for non-technical windowsian friends.
 
 ScreenShot
 ----------
-![alt tag](http://img4.hostingpics.net/pics/828605cleanSJS.jpg)
+![ScreenShot](http://img4.hostingpics.net/pics/828605cleanSJS.jpg)
 
 Changelog
 ---------
